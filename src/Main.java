@@ -5,6 +5,7 @@ public class Main {
         int fuelType = 95;
         int amount = 500;
         int maxAmount = 400;
+        int times = 5;
 
         double fuel92Price = 2.00;
         double fuel95Price = 2.10;
@@ -37,6 +38,7 @@ public class Main {
 
         double totalPrice = fuelPrice * amount;
         System.out.println("Общая стоймость заправки: " + totalPrice + " руб.");
+        System.out.println("Хорошего дня");
     }
 }
 
