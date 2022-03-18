@@ -3,11 +3,11 @@ public class Main {
         System.out.println("Система расчёта стоймости топлива");
 
         int fuelType = 95;
-        int amount = 500;
-        int maxAmount = 900;
+        int amount = 25;
 
         double fuel92Price = 2.00;
         double fuel95Price = 2.10;
+        double fuel98price = 1.90;
 
         double fuelPrice = 0;
         if(fuelType == 92) {
@@ -15,7 +15,11 @@ public class Main {
         }
         else if(fuelType == 95) {
             fuelPrice = fuel95Price;
-        } else {
+        }
+        else if(fuelType == 98){
+            fuelPrice = fuel98price;
+        }
+        else {
             System.out.println("Указан неверный тип топлива");
         }
 
@@ -32,6 +36,7 @@ public class Main {
 
         double totalPrice = fuelPrice * amount;
         System.out.println("Общая стоймость заправки: " + totalPrice + " руб.");
+        System.out.println("Хорошего дня");
     }
 }
 
