@@ -4,7 +4,7 @@ public class Main {
 
         int fuelType = 95;
         int amount = 500;
-        int maxAmount = 400;
+        int maxAmount = 900;
 
         double fuel92Price = 2.00;
         double fuel95Price = 2.10;
