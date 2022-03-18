@@ -2,9 +2,12 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Система расчёта стоймости топлива");
 
-        int fuelType = 95;
+        int fuelType = 95:
         int amount = 500;
         int maxAmount = 400;
+        int amount = 25;
+        int maxAmount = 900;
+
 
         double fuel92Price = 2.00;
         double fuel95Price = 2.10;
