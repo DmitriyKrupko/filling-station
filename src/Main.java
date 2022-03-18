@@ -5,11 +5,12 @@ public class Main {
         int fuelType = 95;
         int amount = 500;
         int maxAmount = 400;
-        int times = 5;
 
         double fuel92Price = 2.00;
         double fuel95Price = 2.10;
         double fuel98price = 1.90;
+
+        System.out.println("Приветствую");
 
         double fuelPrice = 0;
         if(fuelType == 92) {
